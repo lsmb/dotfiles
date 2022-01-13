@@ -1,0 +1,3 @@
+[submodule ".config/lvim"]
+	path = .config/lvim
+	url = https://github.com/lsmb/lvim
