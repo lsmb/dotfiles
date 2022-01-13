@@ -1,0 +1,10 @@
+/** Configured For Applets **/
+
+configuration {
+  show-icons:         true;
+  icon-theme:         "Papirus";
+}
+/** @import "/usr/share/rofi/themes/gruvbox-dark-hard.rasi" **/
+@import "~/.cache/wal/colors-rofi-dark"
+
+/** @import "/home/mai/.config/rofi/themes/onedark.rasi" **/

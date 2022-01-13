@@ -1,0 +1,69 @@
+{
+    "input": {
+        "autogain": {
+            "input-gain": 0.0,
+            "output-gain": 0.0,
+            "target": -24.0
+        },
+        "blocklist": [],
+        "compressor": {
+            "attack": 20.0,
+            "boost-amount": 6.0,
+            "boost-threshold": -72.0,
+            "hpf-frequency": 10.0,
+            "hpf-mode": "off",
+            "input-gain": 0.0,
+            "knee": -6.0,
+            "lpf-frequency": 20000.0,
+            "lpf-mode": "off",
+            "makeup": 0.0,
+            "mode": "Downward",
+            "output-gain": 0.0,
+            "ratio": 4.0,
+            "release": 100.0,
+            "release-threshold": -120.0,
+            "sidechain": {
+                "lookahead": 0.0,
+                "mode": "RMS",
+                "preamp": 0.0,
+                "reactivity": 10.0,
+                "source": "Middle",
+                "type": "Feed-forward"
+            },
+            "threshold": -5.4
+        },
+        "filter": {
+            "frequency": 3203.0,
+            "inertia": 10.0,
+            "input-gain": 0.0,
+            "mode": "12dB/oct Lowpass",
+            "output-gain": 0.0,
+            "resonance": -3.0
+        },
+        "gate": {
+            "attack": 20.0,
+            "detection": "RMS",
+            "input-gain": 1.9,
+            "knee": 9.0,
+            "makeup": 0.0,
+            "output-gain": 0.1,
+            "range": -11.999999999999902,
+            "ratio": 2.0,
+            "release": 250.0,
+            "stereo-link": "Average",
+            "threshold": -12.499999999999986
+        },
+        "plugins_order": [
+            "gate",
+            "filter",
+            "compressor",
+            "autogain",
+            "rnnoise"
+        ],
+        "rnnoise": {
+            "input-gain": 0.0,
+            "model-path": "",
+            "output-gain": 0.0
+        }
+    }
+}

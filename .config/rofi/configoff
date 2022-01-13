@@ -1,0 +1,2 @@
+rofi.run-command: /bin/bash -i -c '{cmd}'
+rofi.run-list-command: source ~/Scripts/zsh_alias.sh

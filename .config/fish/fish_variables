@@ -1,0 +1,52 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export ANDROID_SDK_ROOT:/opt/android\x2dsdk
+SETUVAR FZF_DISABLE_KEYBINDINGS:0
+SETUVAR FZF_LEGACY_KEYBINDINGS:1
+SETUVAR FZF_PREVIEW_DIR_CMD:ls
+SETUVAR FZF_PREVIEW_FILE_CMD:head\x20\x2dn\x2010
+SETUVAR FZF_TMUX_HEIGHT:40\x25
+SETUVAR --export JAVA_HOME:/usr/lib/jvm/java\x2d10\x2dopenjdk
+SETUVAR --export JAVA_OPTS:\x2dXX\x3a\x2bIgnoreUnrecognizedVMOptions\x20\x2d\x2dadd\x2dmodules\x20java\x2ese\x2eee
+SETUVAR --export _JAVA_AWT_WM_NONREPARENTING:1
+SETUVAR __fish_initialized:3100
+SETUVAR _fish_abbr_strat:start
+SETUVAR _fish_abbr_waston:watson
+SETUVAR _fish_abbr_waton:watson
+SETUVAR _fish_abbr_watosn:watson
+SETUVAR _fisher_PatrickF1_2F_fzf_2E_fish_files:/home/mai/\x2econfig/fish/functions/__fzf_extract_var_info\x2efish\x1e/home/mai/\x2econfig/fish/functions/__fzf_preview_file\x2efish\x1e/home/mai/\x2econfig/fish/functions/__fzf_report_file_type\x2efish\x1e/home/mai/\x2econfig/fish/functions/__fzf_search_current_dir\x2efish\x1e/home/mai/\x2econfig/fish/functions/__fzf_search_git_log\x2efish\x1e/home/mai/\x2econfig/fish/functions/__fzf_search_git_status\x2efish\x1e/home/mai/\x2econfig/fish/functions/__fzf_search_history\x2efish\x1e/home/mai/\x2econfig/fish/functions/__fzf_search_shell_variables\x2efish\x1e/home/mai/\x2econfig/fish/conf\x2ed/fzf\x2efish
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:/home/mai/\x2econfig/fish/functions/fisher\x2efish\x1e/home/mai/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:/home/mai/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e/home/mai/\x2econfig/fish/functions/_nvm_list\x2efish\x1e/home/mai/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e/home/mai/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e/home/mai/\x2econfig/fish/functions/nvm\x2efish\x1e/home/mai/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e/home/mai/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ePatrickF1/fzf\x2efish\x1ejorgebucaran/nvm\x2efish
+SETUVAR fish_color_autosuggestion:555\x1ebrblack
+SETUVAR fish_color_cancel:\x2dr
+SETUVAR fish_color_command:9D4735
+SETUVAR fish_color_comment:a29182
+SETUVAR fish_color_cwd:green
+SETUVAR fish_color_cwd_root:red
+SETUVAR fish_color_end:C2573D
+SETUVAR fish_color_error:ff0000
+SETUVAR fish_color_escape:E7996E
+SETUVAR fish_color_history_current:\x2d\x2dbold
+SETUVAR fish_color_host:normal
+SETUVAR fish_color_host_remote:yellow
+SETUVAR fish_color_match:\x2d\x2dbackground\x3dbrblue
+SETUVAR fish_color_normal:normal
+SETUVAR fish_color_operator:E7996E
+SETUVAR fish_color_param:E7996E
+SETUVAR fish_color_quote:C2573D
+SETUVAR fish_color_redirection:E7996E
+SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_status:red
+SETUVAR fish_color_user:brgreen
+SETUVAR fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_greeting:Welcome\x20to\x20fish\x2c\x20the\x20friendly\x20interactive\x20shell\x0aType\x20\x60help\x60\x20for\x20instructions\x20on\x20how\x20to\x20use\x20fish
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_completion:\x1d
+SETUVAR fish_pager_color_description:C2573D\x1eyellow
+SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
+SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_user_paths:/home/mai/\x2enpm\x2dglobal/bin\x1e/home/mai/\x2ecargo/bin\x1e/home/mai/\x2egem/ruby/3\x2e0\x2e0/bin\x1e/opt/android\x2dsdk/tools/bin\x1e/home/mai/\x2egem/ruby/2\x2e7\x2e0/bin\x1e/home/mai/\x2elocal/bin/\x1e/usr/local/bin
+SETUVAR nvm_data:/home/mai/\x2elocal/share/nvm
+SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist
