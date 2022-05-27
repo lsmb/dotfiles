@@ -261,5 +261,5 @@ ctrl + shift + alt + l
 @XF86TouchpadOff
         xdotool key emdash
 
-ctrl + shift + u
-        rofimoji -f math
+# ctrl + shift + u
+#         rofimoji -f math

@@ -6,6 +6,9 @@ if test -e ~/.cache/wal/colors.fish
     source ~/.cache/wal/colors.fish
 end
 
+# neofetch
+#maifetch -i ~/Pictures/1cu13.png
+
 set -gx EDITOR lvim
 set -gx VISUAL lvim
 

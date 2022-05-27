@@ -9,7 +9,7 @@ SETUVAR FZF_TMUX_HEIGHT:40\x25
 SETUVAR --export JAVA_HOME:/usr/lib/jvm/java\x2d10\x2dopenjdk
 SETUVAR --export JAVA_OPTS:\x2dXX\x3a\x2bIgnoreUnrecognizedVMOptions\x20\x2d\x2dadd\x2dmodules\x20java\x2ese\x2eee
 SETUVAR --export _JAVA_AWT_WM_NONREPARENTING:1
-SETUVAR __fish_initialized:3100
+SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr_strat:start
 SETUVAR _fish_abbr_waston:watson
 SETUVAR _fish_abbr_waton:watson
@@ -47,6 +47,7 @@ SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:C2573D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_pager_color_selected_background:\x2dr
 SETUVAR fish_user_paths:/home/mai/\x2enpm\x2dglobal/bin\x1e/home/mai/\x2ecargo/bin\x1e/home/mai/\x2egem/ruby/3\x2e0\x2e0/bin\x1e/opt/android\x2dsdk/tools/bin\x1e/home/mai/\x2egem/ruby/2\x2e7\x2e0/bin\x1e/home/mai/\x2elocal/bin/\x1e/usr/local/bin
 SETUVAR nvm_data:/home/mai/\x2elocal/share/nvm
 SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist
