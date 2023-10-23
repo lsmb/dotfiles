@@ -6,7 +6,7 @@ Xft.dpi:       96
 !Xft.hintstyle: hintslight
 !Xft.lcdfilter: lcddefault
 
-Xcursor.size: 28
+Xcursor.size: 16
 
 URxvt.font: xft:JetBrains-Mono:size=12
 URxvt.boldFont:
